@@ -1,0 +1,59 @@
+header {
+  background-color: black;
+  color: #f0a500;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100%;
+  padding: 20px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-enlace {
+  display: inline-block;
+  background: tomato;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.nav-enlace:hover {
+  background: rosybrown;
+}
+
+nav {
+  background: slateblue;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  nav {
+    background: aqua;
+    flex-direction: column;
+  }
+
+  .nav-enlace {
+    margin: 10px 0px;
+  }
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+header #logo {
+  height: 80px;
+}
+header #lupa {
+  height: 40px;
+}
+
+.inicio {
+  background-color: none;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

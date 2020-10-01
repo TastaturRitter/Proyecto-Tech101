@@ -1,0 +1,29 @@
+.nav-enlace{
+    display: inline-block;
+    background: tomato;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover {
+    background: rosybrown;
+}
+
+nav{
+    background: slateblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width: 600px){
+    nav{
+        background: aqua;
+        flex-direction: column;
+    }
+
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+}
