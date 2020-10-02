@@ -1,7 +1,8 @@
 @import "variables";
 @import "mixin";
-@import "bloques";
+@import "header";
 @import "nav";
+@import "footer";
 
 body{
     margin: 0%;
@@ -25,10 +26,14 @@ header{
     display: flex;
     justify-content: center;
     // @include cuadro(#f9c0c0, 200px);
-    
 }
 
-nav{
-    
-    
+.half{
+    // margin: 20px;
+    // padding: 10px;
+
+    #ropa{
+        width: 100%;
+        height: auto;
+    }
 }

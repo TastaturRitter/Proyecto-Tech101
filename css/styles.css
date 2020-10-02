@@ -3,7 +3,7 @@ header {
   color: #f0a500;
   font-family: "Times New Roman", Times, serif;
   font-size: 100%;
-  padding: 20px 50px 0px;
+  padding: 0px 50px 0px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,18 +11,20 @@ header {
 
 .nav-enlace {
   display: inline-block;
-  background: tomato;
+  background: #6a2c70;
   color: #fff;
+  border-radius: 30%;
   padding: 10px 30px;
   text-decoration: none;
 }
 
 .nav-enlace:hover {
-  background: rosybrown;
+  background: #1aa6b7;
+  color: aliceblue;
 }
 
 nav {
-  background: slateblue;
+  background-image: url("/home/adri/Documents/2 - Proyecto/z-pictures/di.png");
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -30,14 +32,30 @@ nav {
 
 @media (max-width: 600px) {
   nav {
-    background: aqua;
+    background-image: url("/home/adri/Documents/2 - Proyecto/z-pictures/di2.png");
     flex-direction: column;
   }
 
   .nav-enlace {
+    background: #fa7d09;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
     margin: 10px 0px;
   }
 }
+footer {
+  background-color: #4ea0ae;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100%;
+  padding: 0px 50px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 body {
   margin: 0%;
   padding: 0%;
@@ -54,6 +72,11 @@ header #lupa {
   background-color: none;
   display: flex;
   justify-content: center;
+}
+
+.half #ropa {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
